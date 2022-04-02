@@ -1,4 +1,6 @@
-function Navbar() {
+// TODO: Format Navbar
+
+const Navbar = () => {
   return (
     <nav className="navbar navbar-dark bg-primary text-white">
       <div className="container-fluid">

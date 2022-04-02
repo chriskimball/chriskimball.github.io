@@ -1,4 +1,6 @@
-function MainBio() {
+// TODO: Configure main bio page, picture, description, links to github and linkedIn.
+
+const MainBio= () => {
   return (
     <main className="mt-3">
       <div className="container">
