@@ -1,5 +1,5 @@
-// TODO: Format Navbar
 import '../styles/nav.css'
+
 const Navbar = ({ view, setView }) => {
   return (
     <header className="navbar navbar-dark">

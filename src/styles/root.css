@@ -45,3 +45,40 @@ footer{
     text-align:center;
     padding:15px;
 }
+
+#contact {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    align-items: center;
+}
+
+#contact ul{
+    list-style-type:none;
+    display:flex;
+    padding: 10px;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
+    width:100%;
+    align-content: center;
+}
+
+#contact ul li{
+    padding:10px;
+    color:var(--main-font);
+    transition:all .5s ease-in-out;
+}
+
+#contact ul li:hover{
+    transition:all .5s ease-in-out;
+    transform:scale(1.5)
+}
+
+#contact a{
+    text-decoration:none;
+    color:var(--main-font);  
+} 
+
+#copyright {
+    transition:none;
+}
