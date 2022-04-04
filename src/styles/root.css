@@ -1,0 +1,43 @@
+/* importing google font into stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Roboto&display=swap');
+
+/* setting global style variables, mainly font and background colors */
+:root{
+    --main-background:#F5F5F5;
+    --header-background:#46494C;
+    --main-font:#4C5C68;
+    --main-border:#868689;
+    --main-header:#DCDCDD;
+    --work-background:#3E616E;
+}
+
+/* setting global attributes */
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Cabin', sans-serif;
+}
+
+/* element selector styling */
+body{
+    background-color:var(--main-background);
+}
+
+p{
+    padding:15px;
+    color:var(--main-font)
+}
+
+h2 {
+    color:var(--main-font);
+}
+
+h3{
+    color:var(--main-header);
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+}

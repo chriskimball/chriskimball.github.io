@@ -1,10 +1,12 @@
 import { useState } from "react";
 import MainBio from "./components/MainBio";
 import Navbar from "./components/Navbar";
+import Banner from "./components/Banner";
 import PorgrolioGrid from "./components/PortfolioGrid";
 import Contact from "./components/Contact"
 import Resume from "./components/Resume"
 import Footer from "./components/Footer"
+import './styles/root.css'
 
 function App() {
 
@@ -16,6 +18,7 @@ function App() {
   return (
     <>
       <Navbar view={view} setView={setView} />
+      <Banner/>
       { ( view === "about-me" || view === "" || view === "all" ) && <MainBio /> }
       { ( view === "portfolio" || view === "all" ) && <PorgrolioGrid /> }
       { ( view === "contact" || view === "all" ) && <Contact /> }
