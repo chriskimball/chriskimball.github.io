@@ -1,0 +1,35 @@
+/* banner image styling */
+.banner{
+    background-image:url("../data/background.jpg");
+    background-size: cover;
+    background-position: right 200px;
+    background-repeat:no-repeat;
+    background-clip: inherit;
+    object-fit:cover;
+    max-height:450px;
+    height:450px;
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    background-position: 0 0; 
+    flex-wrap:wrap;
+}
+
+/* banner image subtitle styling */
+.banner-subtitle p{
+    color:var(--main-header);
+    padding: 10px;
+    background-color:var(--work-background);
+    margin:75px;
+    border-radius:25px;
+    text-align:center;
+    height:auto;
+    width:auto;
+    opacity:0;
+    transition:all 1.5s ease-in-out;
+}
+
+.banner:hover .banner-subtitle p {
+    opacity:1;
+    transition:all 1.5s ease-in-out;
+}
