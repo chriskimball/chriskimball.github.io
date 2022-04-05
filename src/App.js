@@ -19,10 +19,12 @@ function App() {
     <>
       <Navbar view={view} setView={setView} />
       <Banner/>
-      { ( view === "about-me" || view === "" || view === "all" ) && <MainBio /> }
-      { ( view === "portfolio" || view === "all" ) && <PorgrolioGrid /> }
-      { ( view === "contact" || view === "all" ) && <Contact /> }
-      { ( view === "resume" || view === "all" ) && <Resume /> }
+      <main>
+        { ( view === "about-me" || view === "" || view === "all" ) && <MainBio /> }
+        { ( view === "portfolio" || view === "" || view === "all" ) && <PorgrolioGrid /> }
+        { ( view === "contact" || view === "" || view === "all" ) && <Contact /> }
+        { ( view === "resume" || view === "" || view === "all" ) && <Resume /> }
+      </main>
       <Footer />
     </>
   );
