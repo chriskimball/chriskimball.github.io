@@ -1,70 +1,98 @@
-# Getting Started with Create React App
+# Professional Portfolio - Chris Kimball
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-In the project directory, you can run:
 
-### `npm start`
+## Contributors
+---------------
+[Chris Kimball](https://github.com/chirskimball "chirskimball's GitHub Profile")
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Description
+---------------
+The following project is a professional portfolio for Chris Kimball. 
 
-### `npm test`
+This portfolio is designed to show potential employers the skills and talents of Chris Kimball to fill a part-time or full-time position as a web developer.  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The portfolio currently has links to 6  projects will be updated as Chris develops and deploys new projects through the course of his Full Stack Flex Bootcamp.
 
-### `npm run build`
+Upon launching the webpage users will be presented with navigation bar at the top of the page, with navigational links to four sections of the portfolio, 'About me', 'Work', 'Contact Me', and 'Resume'.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+If the user hovers their cursor over the navigation links, the links will pop out to indicating the link that would be selected if clicked. If one of the navigation links is clicked the page will re-render only the section that was clicked. If the user click's Chris Kimball's name in the navbar it will re-render all sections of the portfolio.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Below the header and navigation bar, the user is presented with a banner image of a mountain landscape (photo captured by Chris Kimball), and will be presented with a message if their cursor is hovered over the banner image.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The main content area of the webpage contains the four sections with an about me section with a short bio on Chris Kimball and a picture next to it in the heading area. Below the about me section in the work section there are examples of deployed projects. Each project will have a short description and buttons to the Github repository and Deployed Application.
 
-### `npm run eject`
+Below the work section is the contact me section, which contains contact form which allows potential employers and collaborators enter their email, name and a message. Currently since there is no back end for this project the contact form does not actually function as intended, it is just a placeholder for future improvements.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The final section of the portfolio is the Resume section containing a link to Chris' Resume and links to his LinkedIn and Github profiles.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The footer contains contact information to reach out directly to Chris Kimball.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+This whole portfolio page has been designed with a wide variety of display resolutions and devices in mind. All of the elements will dynamically resize themselves if the browser window is scaled up or down, or if the user is visiting the page on a mobile device.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Table of Contents
+---------------
+* [Web Addresses](#web-addresses)
+* [License](#license)
+* [Technology Used](#technology-used)
+* [Screenshots](#screenshots)
+* [Image Credits](#image-credits)
+* [Questions](#questions)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Web Addresses
+---------------
+*  [Github Repository](https://github.com/chriskimball/chriskimball.github.io "Github Repo")
+*  [Deployed Application on Github Pages](https://chriskimball.github.io/ "Deployed Application on Github Pages")
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
+---------------
+This project is licensed under the MIT license.
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Technology Used
+---------------
+* HTML/CSS
+* JavaScript
+* React.js
+* gh-pages npm package
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Screenshots
+---------------
+#### PC display 1920 pixel width
+![Screenshot of Portfolio of Chris Kimball, PC display 1920 pixel width](./screenshots/pc_1920px_width.png)
 
-### Advanced Configuration
+#### PC display 944 pixel width
+![Screenshot of Portfolio of Chris Kimball, PC display 944 pixel width](./screenshots/pc_944px_width.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+#### iPad display 768 pixel width
+![Screenshot of Portfolio of Chris Kimball, iPad display 768 pixel width](./screenshots/ipad_768x1024.png)
 
-### Deployment
+#### iPhone display 375 pixel width
+![Screenshot of Portfolio of Chris Kimball, iPhone display 375 pixel width](./screenshots/iphone_375x812.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## Image Credits
+---------------
+* https://raw.githubusercontent.com/chriskimball/gameRec/main/public/images/banner-image.jpeg
+* https://images.unsplash.com/photo-1462759353907-b2ea5ebd72e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80
+* https://images.unsplash.com/photo-1508921108053-9f757ead871c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80
+* https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80
+* https://i.giphy.com/media/xTcnThWTvBZGrgx2dW/giphy.webp
+* https://i.giphy.com/media/KDrjub26iceZ2/giphy.webp
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Questions
+---------------
+If you have any questions about the repo, open an issue or contact me directly at [chriskimball.dev@gmail.com](mailto:chriskimball.dev@gmail.com). You can find more of my work at [chirskimball](https://github.com/chirskimball "chirskimball's GitHub Profile").
+
+
+## Copyright Info
+---------------
+© 2022 Chris Kimball
