@@ -29,7 +29,6 @@ main{
 }
 
 p{
-    padding:15px;
     color:var(--main-font)
 }
 
@@ -44,6 +43,37 @@ h3{
 footer{
     text-align:center;
     padding:15px;
+}
+
+.main-container{
+    margin:25px;
+    display:flex;
+}
+
+/* main-header class styling the headings for the three main sections */
+.main-header{
+    display:flex;
+    justify-content:flex-start;
+    align-content:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+    margin:15px;
+    padding:15px;
+    flex:1 1 auto;
+    gap:20px;
+    border-right:6px var(--main-border) solid;
+    text-align:center;
+    width:33%;
+}
+
+/* main-body class styling for the main content for two of the three main sections */
+.main-body{
+    padding:15px;
+    display:flex;
+    flex-wrap:wrap;
+    width:67%;   
+    flex:1 0 auto; 
+    align-items:center;
 }
 
 #contact {
@@ -81,4 +111,249 @@ footer{
 
 #copyright {
     transition:none;
+}
+
+/* Media query to change project label sizing for screen size smaller than 1024px */
+@media screen and (max-width:1024px) {
+
+    
+    #project2 .project-label {
+        width:66%;
+    }
+
+    #project3 .project-label {
+        width:66%;
+    }
+
+}
+
+/* Media query to change site layout to be optimized for mobile devices */
+/* iphone X resolution 375px by 812px /// ipad 768px by 1024px */
+@media screen and (max-width:768px) {
+
+    main{
+        margin-right:0px;
+    }
+
+    h1{
+        align-self:flex-start;
+    }
+
+    nav ul{
+        flex-direction:column;
+        justify-content:space-around;
+        text-align:right;
+    }
+
+    .banner-subtitle p{
+        opacity:1;
+    }
+
+    .project{
+        opacity:1;
+    }
+
+}
+
+/* media query adjusts layout to be optimized for screens 678 pixels and lower, including mobile devices */
+@media screen and (max-width:678px) {
+
+    main{
+        margin-right:0px;
+    }
+
+    header{
+        flex-direction:column;
+    }
+
+    h1{
+        width:100%;
+        text-align:center;
+    }
+
+    nav ul{
+        flex-direction:row;
+        justify-content:space-around;
+        width:100%;
+    }
+
+    /* hover effect overridden for mobile sized screens since mobile devices do not support hover effects */
+    nav ul li:hover{
+        background-color:var(--header-background);
+        transform: scale(1);
+
+    }
+
+    .banner-subtitle p{
+        opacity:1;
+    }
+
+    .main-container{
+        background-color: var(--main-background);
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-header{
+        width: auto;
+        flex-direction:column-reverse;
+        border-right:0px;
+        border-bottom:6px var(--main-border) solid;;
+    }
+
+    .main-body{
+        width:auto;
+    }
+
+    .main-body-work{
+        width:auto;
+        padding:5px;
+    }
+
+    aside{
+        width:100%;
+    }
+    
+    .project{
+        opacity:1;
+        margin:5px;
+    }
+
+    /* hover effect overridden for mobile sized screens since mobile devices do not support hover effects */
+    .project:hover {
+        transform: scale(1);
+        border-radius:1px;
+    }
+
+    #project1{
+        height:200px;
+    }
+
+    /* hover effect overridden for mobile sized screens since mobile devices do not support hover effects */
+    #contact ul li:hover{
+        transform:scale(1)
+    }
+}
+/* Media query to change project label sizing for screen size smaller than 1024px */
+@media screen and (max-width:1024px) {
+
+    
+#project2 .project-label {
+    width:66%;
+}
+
+#project3 .project-label {
+    width:66%;
+}
+
+}
+
+/* Media query to change site layout to be optimized for mobile devices */
+/* iphone X resolution 375px by 812px /// ipad 768px by 1024px */
+@media screen and (max-width:768px) {
+
+    main{
+        margin-right:0px;
+    }
+
+    h1{
+        align-self:flex-start;
+    }
+
+    nav ul{
+        flex-direction:column;
+        justify-content:space-around;
+        text-align:right;
+    }
+
+    .banner-subtitle p{
+        opacity:1;
+    }
+
+    .project{
+        opacity:1;
+    }
+
+}
+
+/* media query adjusts layout to be optimized for screens 678 pixels and lower, including mobile devices */
+@media screen and (max-width:678px) {
+
+    main{
+        margin-right:0px;
+    }
+
+    header{
+        flex-direction:column;
+    }
+
+    h1{
+        width:100%;
+        text-align:center;
+    }
+
+    nav ul{
+        flex-direction:row;
+        justify-content:space-around;
+        width:100%;
+    }
+
+    /* hover effect overridden for mobile sized screens since mobile devices do not support hover effects */
+    nav ul li:hover{
+        background-color:var(--header-background);
+        transform: scale(1);
+
+    }
+
+    .banner-subtitle p{
+        opacity:1;
+    }
+
+    .main-container{
+        background-color: var(--main-background);
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main-header{
+        width: auto;
+        flex-direction:column-reverse;
+        border-right:0px;
+        border-bottom:6px var(--main-border) solid;;
+    }
+
+    .main-body{
+        width:auto;
+    }
+
+    .main-body-work{
+        width:auto;
+        padding:5px;
+    }
+
+    aside{
+        width:100%;
+    }
+
+    .project{
+        opacity:1;
+        margin:5px;
+    }
+
+    /* hover effect overridden for mobile sized screens since mobile devices do not support hover effects */
+    .project:hover {
+        transform: scale(1);
+        border-radius:1px;
+    }
+
+    #project1{
+        height:200px;
+    }
+
+    /* hover effect overridden for mobile sized screens since mobile devices do not support hover effects */
+    #contact ul li:hover{
+        transform:scale(1)
+    }
 }
