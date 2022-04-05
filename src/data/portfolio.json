@@ -3,28 +3,48 @@
     "id": 1,
     "title": "GameRec",
     "url":"https://github.com/chriskimball/gameRec",
-    "image":"https://placekitten.com/g/640/400",
-    "description": "Bavarian bergkase cheese slices danish fontina. Babybel pepper jack fondue cheese and wine cheese on toast say cheese airedale cheese slices. Cheesecake chalk and cheese chalk and cheese cheese on toast cheese triangles roquefort port-salut rubber cheese. The big cheese stinking bishop cheese and biscuits edam lancashire everyone loves."
+    "repo":"https://github.com/chriskimball/gameRec",
+    "image":"https://raw.githubusercontent.com/chriskimball/gameRec/main/public/images/banner-image.jpeg",
+    "description": "GameRec is a full stack application that follows a MVC design to allow users to look up games, see user reviews, add games to their library or wishlist and leave their own reviews. This application uses MySQL and Sequelize as the database/models, Express.js to build out the API routes as the controller, and handlebars to render different views."
   },
   {
     "id": 2,
     "title": "The One Repo",
     "url":"https://github.com/chriskimball/the-one-repo",
-    "image":"https://placekitten.com/g/640/400",
-    "description": "Paneer cheese and biscuits edam. Cheesy grin melted cheese pepper jack monterey jack squirty cheese say cheese cheesy grin lancashire. Cheesy feet cheesy grin hard cheese cheese triangles danish fontina cheese slices swiss lancashire. Babybel bocconcini emmental edam rubber cheese taleggio cheese strings smelly cheese. Brie."
+    "repo":"https://github.com/chriskimball/the-one-repo",
+    "image":"https://images.unsplash.com/photo-1462759353907-b2ea5ebd72e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80",
+    "description": "The one repo to rule them all! An interactive webpage that should access data from \"The One API\" so the user can search their favorite characters from the Lord of the Rings Trilogy and given information about that character with a random quote. The user should also be complimented with a corresponding gif related to the chosen character."
   },
   {
     "id": 3,
-    "title": "Tech Blog",
-    "url":"https://github.com/chriskimball/extreme-tech-blog",
-    "image":"https://placekitten.com/g/640/400",
-    "description": "Lancashire bavarian bergkase ricotta. Macaroni cheese airedale queso st. agur blue cheese rubber cheese hard cheese cheese and biscuits camembert de normandie. Cheesy feet bavarian bergkase swiss caerphilly emmental goat cheese on toast fondue. Taleggio dolcelatte everyone loves airedale cheese slices."
+    "title": "Text Editor",
+    "url":"https://wildly-awesome-text.herokuapp.com/",
+    "repo":"https://github.com/chriskimball/wildly-awesome-text-editor",
+    "image":"https://images.unsplash.com/photo-1508921108053-9f757ead871c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+    "description": "This project is a progressive web application that is a JavaScript text editor. This app utilizes several technologies to persist data, using both local storage and the indexedDb webpack plugin to persist data between sessions. The application also has a manifest and service worker present which allows users to install the application to their computer and operate the application without a web browser."
   },
   {
     "id": 4,
+    "title": "Tech Blog",
+    "url":"https://github.com/chriskimball/extreme-tech-blog",
+    "repo":"https://extreme-tech-blog.herokuapp.com/",
+    "image":"https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80",
+    "description": "This techblog is a full stack application that uses MySQL, Node.js, Express.js and Sequelize to allow users to view, post and comment on a tech blog."
+  },
+  {
+    "id": 5,
     "title": "Weather Dashboard",
-    "url":"https://github.com/chriskimball/weather-dashboard-18372",
-    "image":"https://placekitten.com/g/640/400",
-    "description": "Boursin cow pecorino. Cheese strings cream cheese cheesecake emmental cheddar stilton cheesy feet cow. Fromage blue castello who moved my cheese red leicester feta brie dolcelatte jarlsberg. Melted cheese parmesan fondue cut the cheese cheese triangles cheese and wine red leicester pecorino. Lancashire edam."
+    "url":"https://chriskimball.github.io/weather-dashboard-18372/",
+    "repo":"https://github.com/chriskimball/weather-dashboard-18372",
+    "image":"https://i.giphy.com/media/xTcnThWTvBZGrgx2dW/giphy.webp",
+    "description": "This is a web application that allows the user to lookup weather forecast for a city to see current weather conditions as well as a five day forecast. Weather data is provided to the application by the OpenweatherMap serverside API's (Geocoding API and One Call API)."
+  },
+  {
+    "id": 6,
+    "title": "Note Taker",
+    "url":"https://crk-super-note-taker.herokuapp.com/",
+    "repo":"https://github.com/chriskimball/Super-Awesome-Note-Taker",
+    "image":"https://i.giphy.com/media/KDrjub26iceZ2/giphy.webp",
+    "description": "This is an application that allows users to save notes for various uses. This application uses Express.js as a back end server to allows note data to be stored across sessions."
   }
 ]

@@ -1,12 +1,15 @@
 import portfolioItems from "../data/portfolio.json";
-// TODO: Add in other porfolio item information in data/portfolio.json (link, image, description etc.)
-// TODO: Format cards
+import "../styles/portfolio.css";
 const PorgrolioGrid = () => {
   return (
-    <section className="bg-primary">
-      <div className="container p-3">
+    <section id="work" className="main-container">
+      <aside className="main-header">
+        <h2>Work</h2>
+      </aside>
+
+      <article className="main-body">
         <div className="row g-3">
-          {portfolioItems.map(({ id, title, url, image, description }) => (
+          {portfolioItems.map(({ id, title, url, repo, image, description }) => (
             <div key={id} className="col-lg-6">
               <div className="card h-100">
                 <img src={image} className="card-img-top" alt={`A sample image of the ${title}`} />
@@ -15,15 +18,18 @@ const PorgrolioGrid = () => {
                   <p className="card-text"> {description}</p>
                 </div>
                 <div className="card-footer text-end">
-                  <a href={url} className="btn btn-primary" target="_blank">
+                  <a href={repo} className="button mx-3" target="_blank" rel="noreferrer">
                     Github Repo
+                  </a>
+                  <a href={url} className="button" target="_blank" rel="noreferrer">
+                    Deployed Application
                   </a>
                 </div>
               </div>
             </div>
           ))}
         </div>
-      </div>
+      </article>
     </section>
   );
 };
