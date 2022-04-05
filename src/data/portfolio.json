@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "GameRec",
-    "url":"https://github.com/chriskimball/gameRec",
+    "url":"https://gamrec-project.herokuapp.com/",
     "repo":"https://github.com/chriskimball/gameRec",
     "image":"https://raw.githubusercontent.com/chriskimball/gameRec/main/public/images/banner-image.jpeg",
     "description": "GameRec is a full stack application that follows a MVC design to allow users to look up games, see user reviews, add games to their library or wishlist and leave their own reviews. This application uses MySQL and Sequelize as the database/models, Express.js to build out the API routes as the controller, and handlebars to render different views."
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "The One Repo",
-    "url":"https://github.com/chriskimball/the-one-repo",
+    "url":"https://chriskimball.github.io/the-one-repo/",
     "repo":"https://github.com/chriskimball/the-one-repo",
     "image":"https://images.unsplash.com/photo-1462759353907-b2ea5ebd72e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80",
     "description": "The one repo to rule them all! An interactive webpage that should access data from \"The One API\" so the user can search their favorite characters from the Lord of the Rings Trilogy and given information about that character with a random quote. The user should also be complimented with a corresponding gif related to the chosen character."
